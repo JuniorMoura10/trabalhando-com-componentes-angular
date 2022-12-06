@@ -7,4 +7,6 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+  buttonLabel: string = 'ACESSAR';
+  buttonSecond: string = 'ADICIONAR A FAVORITOS';
 }
