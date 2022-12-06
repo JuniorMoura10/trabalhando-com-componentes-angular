@@ -15,4 +15,8 @@ export class ButtonComponent{
     labelAdd: 'Adicionar ao carrinho',
     labelRmv: 'Remover do carrinho'
   }
+
+  getAlert(){
+    alert('Adicionado ao(s) ' + this.label)
+  }
 }
